@@ -1,0 +1,6 @@
+pip install --quiet pandas numpy scikit-learn lightgbm missingno
+pip uninstall -y xgboost
+pip install xgboost==1.7.6 
+pip install scikit-learn==1.2.2
+pip install numpy==1.23.5
+pip install lightgbm==3.3.5
